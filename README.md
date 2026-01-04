@@ -42,7 +42,9 @@ pip install pandas pyarrow openpyxl
 
 ## Project Structure
 
+```bash
 ├── solver.py        # Core Logic Engine (Parser + CSP Solver)
 ├── run.py           # Execution wrapper, file loading, and scoring
 ├── README.md        # Documentation
 └── results.csv      # Output file (Generated after running, place your .parquet or .csv file in the root directory)
+```
