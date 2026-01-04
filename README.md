@@ -38,6 +38,9 @@ Instead of relying on standard Backtracking (which is computationally expensive)
 
 ```bash
 pip install pandas pyarrow openpyxl
+```
+
+## Project Structure
 
 ├── solver.py        # Core Logic Engine (Parser + CSP Solver)
 ├── run.py           # Execution wrapper, file loading, and scoring
